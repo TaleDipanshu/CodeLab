@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App'
 import './index.css'
-import Navbar from './components/NavBar'
+import Navbar from './components/Navbar'
 import CodingModes from './pages/CodingModes'
 import CodingDesign from './pages/CodingDesign'
 import MakeMeFunctional from './pages/MakeMeFunctional';
