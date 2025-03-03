@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App'
 import './index.css'
 import Navbar from './components/Navbar'
-import CodingModes from './pages/CodingModes'
+import coding-modes from './pages/coding-modes'
 import CodingDesign from './pages/CodingDesign'
 import MakeMeFunctional from './pages/MakeMeFunctional';
 import JsBites from './pages/JsBites';
@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Navbar/>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/codingMode" element={<CodingModes />} />
+        <Route path="/coding-mode" element={<coding-modes />} />
         <Route path="/codingDesign" element={<CodingDesign />} />
         <Route path="/pro" element={<ProSubscription />} />
         <Route path="/roadmap" element={<Roadmap />} />
