@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App'
 import './index.css'
 import Navbar from './components/Navbar'
-import CodingMode from './pages/codingModes'
+import CodingMode from './pages/CodingMode'
 import CodingDesign from './pages/CodingDesign'
 import MakeMeFunctional from './pages/MakeMeFunctional';
 import JsBites from './pages/JsBites';
