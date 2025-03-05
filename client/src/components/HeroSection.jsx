@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -76,12 +77,12 @@ const HeroSection = () => {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >
-        <a href="/codingMode" className="flex items-center gap-2">
+        <Link to="codingMode" className="flex items-center gap-2">
           Start Coding
           <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
-        </a>
+        </Link>
       </motion.button>
     </section>
   );
