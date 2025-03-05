@@ -25,7 +25,7 @@ const Navbar = () => {
      
       <div className={`md:flex space-x-4 ${isOpen ? 'block' : 'hidden'} absolute md:static top-16 left-0 w-full md:w-auto bg-[#2c2b3c] md:bg-transparent md:p-0 p-6`}>
         <ul className="md:flex md:items-center md:space-x-4 text-center md:text-left">
-          <li><a href="/coding-mode" className="text-white block hover:underline py-2 md:py-0">Modes</a></li>
+          <li><a href="/codingMode" className="text-white block hover:underline py-2 md:py-0">Modes</a></li>
         
           <li><a href="/leaderBoard" className="text-white block hover:underline py-2 md:py-0">Leaderboard</a></li>
           <li><a href="/roadmap"  className="text-white block hover:underline py-2 md:py-0">Roadmap</a></li>

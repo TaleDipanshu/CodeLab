@@ -6,7 +6,7 @@ const ChallengeSection = () => {
   const navigate = useNavigate();
 
   const handleStartChallenge = () => {
-    navigate('/coding-mode');
+    navigate('/codingMode');
   };
 
   return (
