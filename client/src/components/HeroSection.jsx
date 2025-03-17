@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="text-center relative overflow-hidden py-10">
+    <section className="text-center relative overflow-hidden py-10 z-0">
       {/* Background decoration */}
       <motion.div 
         className="absolute top-0 left-0 w-full h-full opacity-10 z-0"
@@ -18,7 +18,7 @@ const HeroSection = () => {
 
       {/* Main content */}
       <motion.h1 
-        className="text-4xl md:text-5xl font-bold pt-10 text-white relative z-10"
+        className="text-4xl md:text-5xl font-bold pt-10 text-white relative"
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6 }}

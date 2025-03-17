@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#2c2b3c] p-4 flex justify-between items-center">
+    <nav className="bg-[#2c2b3c] p-4 flex justify-between items-center ">
       <div className="text-white text-lg font-bold">
         <Link to="/">
           <span className="text-pink-500">Code</span>-lab
@@ -23,7 +23,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className={`md:flex space-x-4 ${isOpen ? 'block' : 'hidden'} absolute md:static top-16 left-0 w-full md:w-auto bg-[#2c2b3c] md:bg-transparent md:p-0 p-6`}>
+      <div className={`md:flex space-x-4 ${isOpen ? 'block' : 'hidden'} absolute md:static top-16 left-0 w-full md:w-auto bg-[#2c2b3c] md:bg-transparent md:p-0 p-6 z-50`}>
         <ul className="md:flex md:items-center md:space-x-4 text-center md:text-left">
           <li>
             <Link to="/codingMode" className="text-white block hover:underline py-2 md:py-0">
